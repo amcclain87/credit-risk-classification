@@ -7,10 +7,10 @@ Module 20 Challenge
 In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:
 
 * Explain the purpose of the analysis.
- * The purpose of the analyis is to determine the level of risk present for people applying for loans. It looks at the characteristics present for people with healthy and unhealthy loans.
+  * The purpose of the analyis is to determine the level of risk present for people applying for loans. It looks at the characteristics present for people with healthy and unhealthy loans.
 
 * Explain what financial information the data was on, and what you needed to predict.
- * The data that was included in the analysis for the each applicant was loan size, the interest rate of the loan, the applicant's income, a dept to income ration, the number of accounts held by the applicant, whether they have any marks against their credit, and the amount of debt they currently have.
+  * The data that was included in the analysis for the each applicant was loan size, the interest rate of the loan, the applicant's income, a dept to income ration, the number of accounts held by the applicant, whether they have any marks against their credit, and the amount of debt they currently have.
 
 * Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
 - balance: the amount of people healthy or unhealthy loans
@@ -23,7 +23,7 @@ In this section, describe the analysis you completed for the machine learning mo
 4) these steps were recreated using resampled training data.
 
 * Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).
- * The method used is logistic regression, which is a statistical method that allows for predictions of an outcome. In this case, whether a loan will be healthy or unhealthy. 
+  * The method used is logistic regression, which is a statistical method that allows for predictions of an outcome. In this case, whether a loan will be healthy or unhealthy. 
 The second method used resampling, which increased the sample data for the unhealthy loans from 2500 to 75036, which allowed for a greater ability to train this model for more accurate predictions.
 
 ## Results
@@ -32,16 +32,16 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
 
 * Machine Learning Model 1:
   * Description of Model 1 Accuracy, Precision, and Recall scores.
-    *Accuracy: 95.2%
-    *Precision: 100% of the predictions for healthy loans were caught, 85% of unhealthy loans were caught
-    *Recall: 99% of healthy loans were identified, and 91% of unhealthy loans were idenitified
+     * Accuracy: 95.2%
+     * Precision: 100% of the predictions for healthy loans were caught, 85% of unhealthy loans were caught
+     * Recall: 99% of healthy loans were identified, and 91% of unhealthy loans were idenitified
 
 
 * Machine Learning Model 2:
   * Description of Model 2 Accuracy, Precision, and Recall scores.
-    *Accuracy: 99.4%
-    *Precision: 100% of the predictions for healthy loans were caught, 84% of unhealthy loans were caught
-    *Recall: 99% of healthy loans were identified, and 99% of unhealthy loans were idenitified
+     * Accuracy: 99.4%
+     * Precision: 100% of the predictions for healthy loans were caught, 84% of unhealthy loans were caught
+     * Recall: 99% of healthy loans were identified, and 99% of unhealthy loans were idenitified
     
     
     
