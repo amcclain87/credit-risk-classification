@@ -55,4 +55,4 @@ Summarize the results of the machine learning models, and include a recommendati
   * From a finacial standpoint, it would be more important to be able to identify the unhealthy loans to try to reduce risk when approving loans.
 
 If you do not recommend any of the models, please justify your reasoning.
-  *Both methods appear to yield results with high accuracy results.
+  * Both methods appear to yield results with high accuracy results.
